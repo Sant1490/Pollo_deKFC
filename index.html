@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KFC Gallery</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fafafa;
+    }
+    h1 {
+      text-align: center;
+      padding: 20px;
+      color: #e3241d; /* KFC red */
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 10px;
+      padding: 10px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <h1>KFC Gallery</h1>
+  <div class="gallery">
+    <img src="https://via.placeholder.com/400x300?text=KFC+Bucket+1" alt="KFC Bucket 1">
+    <img src="https://via.placeholder.com/400x300?text=KFC+Bucket+2" alt="KFC Bucket 2">
+    <img src="https://via.placeholder.com/400x300?text=KFC+Bucket+3" alt="KFC Bucket 3">
+    <img src="https://via.placeholder.com/400x300?text=KFC+Bucket+4" alt="KFC Bucket 4">
+  </div>
+</body>
+</html>

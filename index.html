@@ -1,42 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>KFC Gallery</title>
+  <title>Galería KFC</title>
   <style>
     body {
       margin: 0;
+      background: #fafafa;
       font-family: Arial, sans-serif;
-      background-color: #fafafa;
     }
     h1 {
       text-align: center;
+      color: #e3241d;
       padding: 20px;
-      color: #e3241d; /* KFC red */
     }
     .gallery {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 10px;
-      padding: 10px;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+      padding: 15px;
       max-width: 1200px;
       margin: auto;
     }
     .gallery img {
       width: 100%;
       height: auto;
+      display: block;
       border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     }
   </style>
 </head>
 <body>
-  <h1>KFC Gallery</h1>
+  <h1>Galería de KFC 🍗</h1>
   <div class="gallery">
-    <img src="https://via.placeholder.com/400x300?text=KFC+Bucket+1" alt="KFC Bucket 1">
-    <img src="https://via.placeholder.com/400x300?text=KFC+Bucket+2" alt="KFC Bucket 2">
-    <img src="https://via.placeholder.com/400x300?text=KFC+Bucket+3" alt="KFC Bucket 3">
-    <img src="https://via.placeholder.com/400x300?text=KFC+Bucket+4" alt="KFC Bucket 4">
+    <img src="https://www.kfc.com/menu/family-and-kids-meals/16-piece-chicken-bucket" alt="Bucket KFC clásico">
+    <img src="https://www.businessinsider.com/kentucky-fried-chicken-easy-meals-recipe-ideas-family-2025-2" alt="Bucket KFC angle diferente">
+    <img src="https://www.kfc.com/newsroom/kfc-unveils-2024-holiday-bucket-and-streetwear-inspired-merch-collection" alt="Bucket KFC edición festiva">
+    <img src="https://www.southernliving.com/k-f-c-dunk-it-bucket-11698268" alt="Bucket KFC Dunk It">
   </div>
 </body>
 </html>
